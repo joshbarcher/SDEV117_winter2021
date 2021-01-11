@@ -1,0 +1,16 @@
+/*
+    ...
+ */
+
+body {
+    background-color: beige;
+    /*color: #1a591a;*/
+}
+
+#important {
+    color: blue;
+}
+
+.highlight {
+    color: red;
+}
