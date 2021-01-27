@@ -1,13 +1,13 @@
 //invoke (or call) the function
-let aryaAge = humanToDogYears(4);
+let aryaAge = dogToHumanYears(4);
 console.log("Arya is " + aryaAge + " years old!");
-let snoopAge = humanToDogYears(3);
+let snoopAge = dogToHumanYears(3);
 console.log("Snoop is " + snoopAge + " years old!");
 
-console.log("Whoola is " + humanToDogYears(7) + " years old!");
+console.log("Whoola is " + dogToHumanYears(7) + " years old!");
 
 //declare a function
-function humanToDogYears(dogYears)
+function dogToHumanYears(dogYears)
 {
     //convert the parameter to an integer
     dogYears = parseInt(dogYears);
