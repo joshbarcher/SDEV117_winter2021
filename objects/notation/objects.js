@@ -1,11 +1,13 @@
 //create an object to represent our class
 let ourClass = {
-    title: "Front End Web Development",
+    title: "Web Programming w/ Javascript",
     schedule: "MW 9-11am, F 9am",
     seats: 20,
     courseNumber: "SDEV 117",
-    students: ["Yuki", "Thomas", "Patrick", "Mayank", "Mathieu",
-               "Lennox", "Kevin"],
+    students: [
+        "Yuki", "Thomas", "Patrick", "Mayank", "Mathieu",
+        "Lennox", "Kevin"
+    ],
     building: "Home",
     roomNumber: 1,
     instructor: {
