@@ -1,0 +1,14 @@
+.highlight {
+    color: orange;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+.title {
+    font-family: "Bookman Old Style", serif;
+}
+
+.important {
+    background-color: gray;
+}
