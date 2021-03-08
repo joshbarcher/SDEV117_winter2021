@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section {
+    display: block;
+    width: 300px;
+}
+
+img {
+    display: block;
+    width: 200px;
+    margin: 15px auto;
+    border: 2px solid #010158;
+    border-radius: 30px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
