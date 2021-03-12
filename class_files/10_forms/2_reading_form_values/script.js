@@ -5,6 +5,8 @@ window.onload = function() {
 
 function summarize(event)
 {
+    //read all form values...
 
+    //display them in the summary area on the page...
 }
 

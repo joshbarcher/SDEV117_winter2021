@@ -9,5 +9,19 @@ function validateForm(event)
     event.preventDefault();
 
     //validate the form...
+    let name = document.getElementById("name").value;
+
+    //is the name bad...
+    if (name === undefined || name.length < 3 || name.length > 10)
+    {
+        let errorText = document.getElementById("name-error");
+        errorText.style.display = "inline-block";
+    }
+    else
+    {
+        //the name is good...
+        let errorText = document.getElementById("name-error");
+        errorText.style.display = "none"; //hide the error text
+    }
 }
 
